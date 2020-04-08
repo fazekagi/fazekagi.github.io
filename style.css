@@ -1,0 +1,123 @@
+nav {
+  width: 640px;
+  height: 30px;
+  margin: 0px auto;
+  background: #222;
+  padding: 25px 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+header {
+  background: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4.1em;
+  color: #222;
+  line-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  text-align: left;
+}
+h2 {
+  font-size: 1.9em;
+  margin: 0px;
+}
+
+h3,
+h4 {
+  margin-bottom: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+h5 {
+  margin-top: 0px;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+div {
+  margin: auto;
+  width: 900px;
+  display: flex;
+}
+
+section,
+summary {
+  width: 500px;
+  margin-left: 80px;
+}
+
+p {
+  margin-top: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9em;
+  color: #222;
+  line-height: 200%;
+}
+
+summary {
+  font-size: 1.2em;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 200%;
+}
+
+.last {
+  margin-bottom: 80px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 200%;
+  font-size: 0.9em;
+}
+
+blockquote {
+  width: 400px;
+  background: #222;
+  padding: 50px;
+  margin: 50px auto;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 4em;
+  position: relative;
+}
+
+blockquote::before {
+  content: "“";
+  font-family: "IM Fell French Canon SC", serif;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 1.5em;
+}
